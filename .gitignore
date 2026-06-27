@@ -1,0 +1,286 @@
+# ====================================
+# OS & Editor Files
+# ====================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+*.code-workspace
+
+# ====================================
+# Environment & Config
+# ====================================
+.env
+.env.local
+.env.*.local
+*.local
+config.local.*
+application-local.*
+secrets.*
+*.pem
+*.key
+*.crt
+
+# ====================================
+# Logs
+# ====================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ====================================
+# Dependency Directories
+# ====================================
+node_modules/
+vendor/
+packages/
+*.pyc
+__pycache__/
+*.egg-info/
+*.egg
+dist/
+lib/
+target/
+build/
+out/
+bin/
+obj/
+
+# ====================================
+# Python Specific
+# ====================================
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ====================================
+# Node.js / JavaScript Specific
+# ====================================
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+*.tsbuildinfo
+
+# ====================================
+# Java Specific
+# ====================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+.gradle/
+build/
+target/
+
+# ====================================
+# C# / .NET Specific
+# ====================================
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.cache
+*.dll
+*.pdb
+
+# ====================================
+# Go Specific
+# ====================================
+*.exe
+*.exe~
+*.test
+*.out
+go.work
+go.work.sum
+
+# ====================================
+# Ruby Specific
+# ====================================
+*.gem
+*.rbc
+/.bundle/
+/vendor/bundle
+/.ruby-version
+/.ruby-gemset
+
+# ====================================
+# PHP Specific
+# ====================================
+*.phar
+composer.phar
+/vendor/
+composer.lock
+.phpunit.result.cache
+
+# ====================================
+# Rust Specific
+# ====================================
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# ====================================
+# Database & Storage
+# ====================================
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.ldb
+*.frm
+*.ibd
+*.myi
+*.myd
+*.sql.gz
+*.sql.zip
+*.dump
+/uploads/
+/media/
+/storage/
+*.tmp
+*.temp
+
+# ====================================
+# Cache & Temporary Files
+# ====================================
+.cache/
+.cargo/
+.parcel-cache/
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+.vercel/
+.netlify/
+.terraform/
+*.terraform.lock.hcl
+
+# ====================================
+# Test & Coverage
+# ====================================
+coverage/
+.nyc_output/
+*.cover.yml
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
+junit.xml
+test-reports/
+test-results/
+
+# ====================================
+# Docker & Container
+# ====================================
+*.pid
+*.pid.lock
+*.port
+*.sock
+.dockerignore
+Dockerfile.dev
+docker-compose.override.yml
+docker-compose.dev.yml
+.docker/
+
+# ====================================
+# CI/CD & Deployment
+# ====================================
+/.github/
+/.gitlab/
+/.circleci/
+/.travis.yml
+/.jenkins/
+/deploy/
+/deployment/
+*.pem
+*.ppk
+*.pub
+.ssh/
+.aws/
+.gcloud/
+.kube/
+.helm/
+
+# ====================================
+# Package Manager Specific
+# ====================================
+# NPM
+.npm/
+# Yarn
+.yarn/
+.yarnrc
+.yarnrc.yml
+# PNPM
+.pnpm-store/
+
+# ====================================
+# Debug & Profiling
+# ====================================
+*.heapdump
+*.cpuprofile
+*.heapsnapshot
+*.v8.log
+*.trace
+*.prof
+*.gcov
+*.gcda
+*.gcno
+
+# ====================================
+# Documentation
+# ====================================
+/docs/_build/
+/docs/api/
+*.epub
+*.mobi
+*.pdf
+site/
+apidoc/
+
+# ====================================
+# Misc
+# ====================================
+*.bak
+*.backup
+*.orig
+*.rej
+*.patch
+*.diff
+*.swp
+*.swo
+*~
+*.lock
+*.pid
+*.seed
+*.sublime-*
+Session.vim
+.viminfo
