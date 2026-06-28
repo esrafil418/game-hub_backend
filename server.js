@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import { connectDB } from "./config/db.js";
+import gameRouter from "./routes/gameRoute.js";
 import dotenv from "dotenv";
 
 // Load .env file
@@ -19,7 +20,6 @@ connectDB();
 
 // api endpoints
 app.use("/api/game", gameRouter);
-
 
 app.get("/", (req, res) => {
 	res.send("API Working");
