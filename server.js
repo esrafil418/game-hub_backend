@@ -17,6 +17,10 @@ app.use(cors());
 // db connection
 connectDB();
 
+// api endpoints
+app.use("/api/game", gameRouter);
+
+
 app.get("/", (req, res) => {
 	res.send("API Working");
 });
