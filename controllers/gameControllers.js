@@ -41,10 +41,10 @@ export const listGame = async (req, res) => {
 // remove game item
 export const removeGame = async (req, res) => {
 	try {
-		const game = await gameModel.findById(req.body.id);
+		const game = await gameModel.findById(req.body._id);
 		fs.unlink(`uploads/${game.image}`, () => {});
 
-		await gameModel.findByIdAndDelete(req.body.id);
+		await gameModel.findByIdAndDelete(req.body._id);
 		res.json({ success: true, message: "Game removed successfully" });
 	} catch (error) {
 		console.log(error);
