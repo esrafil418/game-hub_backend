@@ -3,6 +3,7 @@ import cors from "cors";
 import { connectDB } from "./config/db.js";
 import gameRouter from "./routes/gameRoute.js";
 import dotenv from "dotenv";
+import userRouter from "./routes/userRoute.js";
 
 // Load .env file
 dotenv.config();
@@ -21,6 +22,7 @@ connectDB();
 // api endpoints
 app.use("/api/game", gameRouter);
 app.use("/images", express.static("uploads"));
+app.use('/api/user', userRouter);
 
 app.get("/", (req, res) => {
 	res.send("API Working");
